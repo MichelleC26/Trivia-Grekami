@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+HR:wght@100..400&display=swap');
+
+.fondo{
+    background-image: url(imagenes/inicio.jpeg)
+
+}
+.presentacion{ 
+    border-radius: 15px;
+    border: 2.5px solid rgb(201, 181, 127);
+    box-shadow: 5px;
+    background-color: white;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-left: auto;
+    height: 450px;
+    width: 50%;
+    font-family: "Playwrite HR", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+}
+.inicio1{
+    background-color: rgb(236, 212, 142);
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal; 
+
+}
+input{
+    border-radius: 10px;
+    border: 1px solid black;
+    display: block;
+    padding: 5px 10px;
+    margin: 10px auto;
+    width: 40%;
+    font-family: "Playwrite HR", cursive;
+    font-optical-sizing: auto;
+}
+
+.boton{
+    border-radius: 10px;
+    border: 2px solid beige(0, 0, 0);
+    background-color: beige;
+    font-weight: 800;
+    display: block;
+    padding: 5px 10px;
+    margin: 10px auto;
+    width: 40%;
+    color: black;
+    font-family: "Playwrite HR", cursive;
+    font-optical-sizing: auto;
+}
+.body{
+    margin-top: 50px;
+}
