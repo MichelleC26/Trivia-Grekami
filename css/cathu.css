@@ -13,7 +13,8 @@ a {
 }
 
 body {
-  background-image: url(imagenes/inicio.jpeg);
+  background-image: url(../imagenes/trivhu.jpeg);
+  background-size: 100% 125%;
   font-family: "Playwrite HR", cursive;
   font-size: 18px;
   text-align: center;
@@ -29,7 +30,7 @@ body {
   font-size: 20px;
   font-family: "Caveat", cursive;
   background-color: rgb(236, 212, 142);
-  
+  border-radius: 15px 15px 0 0;
 }
 
 .titulo {
@@ -81,9 +82,9 @@ input {
 }
 
 .botonVolver {
-  background-color: rgb(201, 181, 127);
+  background-color: #a38d5c;
   color: black;
-  border: 1px solid white;
+  border: 1px solid  rgb(201, 181, 127);
   border-radius: 10px;
   font-weight: 800;
   display: block;
@@ -92,25 +93,37 @@ input {
   width: 40%
 }
 
-.boton:hover,
-.botonTrivias:hover
-.botonSiguiente:hover {
+.botonTrivias {
+  font-family: "Caveat", cursive;
+  font-size: 110%;
+  border-radius: 10px;
+  border: 2px rgb(201, 181, 127);
+  padding: 5px;
+  margin: 10px auto;
+  width: 90%
+}
+
+.pregunta {
+  display:block;
+  font-weight: 600;
+}
+
+.botonSiguiente {
+  border-radius: 10px;
+  border: 1px  rgb(201, 181, 127);
   background-color: beige;
-  color: black;
-  border: 1px solid white
+  font-family: "Caveat", cursive ;
+  font-size: 18px;
+  padding: 0.25% 0.50%;
+  width: 30%;
+  margin-left: 35%;
+  margin-right: 45%;
 }
 
-.puntos {
-  font-size:16px;
-  margin: 10px 0;
-}
-
-.puntajeTitulo {
-  color:  brown;
-  font-size: 25px
-}
-
-.puntaje {
-  color: #050000;
-  font-size: 40px;
-}
+.cronometro {
+  border-radius: 10px;
+  border: 1px solid brown;
+  min-height: 30px;
+  margin: 0 auto;
+  width: 150px;
+};

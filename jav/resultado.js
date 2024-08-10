@@ -1,11 +1,11 @@
 function pintarResultado() {
-    let puntaje = localStorage.getItem("Score")
-    let puntajeContenedor = document.getElementById("Score")
-    
-    if(puntaje === null) {
-      puntajeContenedor. innerHTML =  0 + " puntos"
-    } else {
-      puntajeContenedor.innerHTML = localStorage.getItem("Score") + " puntos";
-    }
-     }
-     pintarResultado()
+  let puntaje = localStorage.getItem("SCORE")
+  let puntajeContenedor = document.getElementById("SCORE")
+
+  if(puntaje === null) {
+    puntajeContenedor. innerHTML =  0 + " puntos"
+  } else {
+    puntajeContenedor.innerHTML = localStorage.getItem("SCORE") + " puntos";
+  }
+   }
+   pintarResultado()
